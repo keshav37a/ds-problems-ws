@@ -36,5 +36,24 @@ public class Utility {
         }
         return rootNode;    
     }    
+    public static void printNodesLevelWiseUtility(BinaryTreeNode<Integer> rootNode){
+        Queue<BinaryTreeNode<Integer>> printQueue = new LinkedList<>();
+        if(rootNode!=null){
+            printQueue.add(rootNode);
+            while(!printQueue.isEmpty()){
+                BinaryTreeNode<Integer> node = printQueue.poll();
+                System.out.print(node.data+" ");
+                BinaryTreeNode<Integer> leftNode = node.left;
+                BinaryTreeNode<Integer> rightNode = node.right;
+                if(leftNode!=null){
+                    printQueue.add(leftNode);
+                }
+                if(rightNode!=null){
+                    printQueue.add(rightNode);
+                }
+            }
+            System.out.println();
+        }
+    }
 }
 

@@ -46,3 +46,6 @@ Prints boolean for a node present in a binary tree.
 
 * [Nodes Without Siblings](./Binary_Trees/BT13_Nodes_Without_Sibling.java)
 Prints all the nodes of a ninary tree which dont have a sibling.
+
+* [Remove leaf nodes](./Binary_Trees/BT14_Remove_All_Leaf_Nodes.java)
+Removes all the leaf nodes from a binary tree and prints it level order wise.
