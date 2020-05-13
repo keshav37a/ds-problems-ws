@@ -6,13 +6,13 @@ This repository is aimed for a quick go through of some common questions for dat
 
 ### Binary Trees
 
-Some problems Included are-\
+Some problems Included are-
 
 * [Take Input](./Binary_Trees/BT1_Take_Input.java)
 How to take input of a tree recursively.
 
-* [Take Input Recursively](./Binary_Trees/BT2_Take_Input_Level_Wise.java)
-How to take input of a tree recursively.
+* [Take Input Level Wise](./Binary_Trees/BT2_Take_Input_Level_Wise.java)
+How to take input of a tree level wise.
 
 * [Count Nodes](./Binary_Trees/BT3_Count_Nodes.java)
 Print the count of the number of nodes in a binary tree.
