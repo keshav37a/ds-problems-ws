@@ -52,3 +52,6 @@ Removes all the leaf nodes from a binary tree and prints it level order wise.
 
 * [Mirror Binary Tree](./Binary_Trees/BT15_Mirror_Binary_Tree.java)
 Mirror a binary tree and print its element in the specified format.
+
+* [Check Balanced Binary Tree](./Binary_Trees/BT16_Check_Balanced.java)
+Check if given binary tree is balanced or not.
