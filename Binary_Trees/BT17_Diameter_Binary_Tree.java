@@ -1,5 +1,21 @@
 //max distance between 2 nodes of a binary tree is the diameter
 
+/*
+    Diameter Of Binary Tree
+    Send Feedback
+    Given a Binary Tree, find and return the diameter of input binary tree.
+    Diameter is - largest count of nodes between any two leaf nodes in the binary tree (both the leaf nodes are inclusive).
+    Input format :
+    Elements in level order form (separated by space)
+    (If any node does not have left or right child, take -1 in its place)
+    Output Format :
+    diameter
+    Sample Input :
+    8 3 10 1 6 -1 14 -1 -1 4 7 13 -1 -1 -1 -1 -1 -1 -1
+    Sample Output :
+    7                   
+*/
+
 public class BT17_Diameter_Binary_Tree {
     public static void main(String[] args) {
         Utility utility = new Utility();
