@@ -1,6 +1,8 @@
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Utility {
     public static Scanner sc = new Scanner(System.in);
@@ -74,6 +76,31 @@ public class Utility {
                 }
                 System.out.println();
             }
+        }
+    }
+
+    public static void getTreeInFormat(BinaryTreeNode<Integer> rootNode, int level, HashMap<Integer, StringBuilder> levelElementsMap){
+        if(rootNode==null)
+            return;
+
+        if(!levelElementsMap.containsKey(level)){
+            StringBuilder elementsSb = new StringBuilder(rootNode.data+" ");
+            levelElementsMap.put(level, elementsSb);
+        }
+        else{
+            StringBuilder elementsSb = levelElementsMap.get(level);
+            elementsSb.append(rootNode.data+" ");
+            levelElementsMap.put(level, elementsSb);
+        }
+
+        getTreeInFormat(rootNode.left, level+1, levelElementsMap);       
+        getTreeInFormat(rootNode.right, level+1, levelElementsMap);       
+    }
+
+    public static void printTreeInFormat(HashMap<Integer, StringBuilder> levelElementsMap){
+        for(Map.Entry<Integer, StringBuilder> entry: levelElementsMap.entrySet()){
+            StringBuilder sbElements = entry.getValue();
+            System.out.println(sbElements);
         }
     }
 }

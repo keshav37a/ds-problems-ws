@@ -45,7 +45,7 @@ Replace the nodes with their depth and print them(in-order).
 Prints boolean for a node present in a binary tree.
 
 * [Nodes Without Siblings](./Binary_Trees/BT13_Nodes_Without_Sibling.java)
-Prints all the nodes of a ninary tree which dont have a sibling.
+Prints all the nodes of a binary tree which dont have a sibling.
 
 * [Remove leaf nodes](./Binary_Trees/BT14_Remove_All_Leaf_Nodes.java)
 Removes all the leaf nodes from a binary tree and prints it level order wise.
@@ -58,3 +58,6 @@ Check if given binary tree is balanced or not.
 
 * [Diameter Binary Tree](./Binary_Trees/BT17_Diameter_Binary_Tree.java)
 Find out the diameter of a given binary tree.
+
+* [Build Tree Using Inorder and Preorder](./Binary_Trees/BT18_Build_Using_In_Pre.java)
+Build tree when inorder and preorder traversals are given.
