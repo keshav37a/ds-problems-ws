@@ -55,3 +55,6 @@ Mirror a binary tree and print its element in the specified format.
 
 * [Check Balanced Binary Tree](./Binary_Trees/BT16_Check_Balanced.java)
 Check if given binary tree is balanced or not.
+
+* [Diameter Binary Tree](./Binary_Trees/BT17_Diameter_Binary_Tree.java)
+Find out the diameter of a given binary tree.
