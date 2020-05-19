@@ -74,6 +74,5 @@ public class BT15_Mirror_Binary_Tree {
 
         printInFormat(rootNode.left, level+1, levelElementsMap);       
         printInFormat(rootNode.right, level+1, levelElementsMap);       
-
     }
 }

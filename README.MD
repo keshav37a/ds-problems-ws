@@ -61,3 +61,7 @@ Find out the diameter of a given binary tree.
 
 * [Build Tree Using Inorder and Preorder](./Binary_Trees/BT18_Build_Using_In_Pre.java)
 Build tree when inorder and preorder traversals are given.
+
+* [Build Tree Using Inorder and Postorder](./Binary_Trees/BT19_Build_Using_In_Post.java)
+Build tree when inorder and postorder traversals are given.
+
