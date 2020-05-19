@@ -60,46 +60,28 @@ public class BT19_Build_Using_In_Post{
         if(siPost>eiPost || siIn>eiIn)
             return null;
 
-        if(siIn==eiIn){
-            BinaryTreeNode<Integer> node = new BinaryTreeNode(inArr[siIn]);
-            return node;
-        }
-        if(siPost==eiPost){
-            BinaryTreeNode<Integer> node = new BinaryTreeNode(inArr[siPost]);
-            return node;
-        }
+        if(siIn==eiIn)
+            return new BinaryTreeNode(inArr[siIn]);
+    
+        if(siPost==eiPost)
+            return new BinaryTreeNode(inArr[siPost]);
         
         if(siPost>eiPost || siIn>eiIn)
             return null;
     
-
         int rootData = postArr[eiPost];
 
         BinaryTreeNode<Integer> rootNode = new BinaryTreeNode(rootData);
         int rootIndexIn = -1;
-        int gap = 0;
         for(int i=eiIn; i>=siIn; i--){
             if(inArr[i]==rootData)
                 rootIndexIn = i;
         }
-        int countGap = eiPost - rootIndexIn;
+        int countGap = eiPost - rootIndexIn + 1;
 
-        int eiPostLeft = rootIndexIn - 1;
-        int siPostLeft = siPost;
-        int siInLeft = siIn;
-        int eiInLeft = rootIndexIn-1;
-
-        rootNode.left = getTree(postArr, inArr, siPostLeft, eiPostLeft, siInLeft, eiInLeft);
-
-        int eiPostRight = eiPost - 1;
-        int siPostRight = eiPost - countGap;
-        int siInRight = rootIndexIn + 1;
-        int eiInRight = eiIn;
-
-        rootNode.right = getTree(postArr, inArr, siPostRight, eiPostRight, siInRight, eiInRight);
+        rootNode.left = getTree(postArr, inArr, siPost, rootIndexIn-1, siIn, rootIndexIn-1);
+        rootNode.right = getTree(postArr, inArr, eiPost-countGap, eiPost-1, rootIndexIn+1, eiIn);
 
         return rootNode;
-
     }
-
 }
