@@ -73,3 +73,6 @@ Build tree when inorder and postorder traversals are given.
 
 * [Find path from root to leaf equals a sum k](./Binary_Trees/BT22_Path_Sum_Root_To_Leaf.java)
  Given a binary tree and a number k, print out all root to leaf paths where the sum of all nodes value is same as the given number k.
+
+* [Print nodes at distance k from node](./Binary_Trees/BT23_Print_Nodes_At_Distance_K.java)
+ Given a binary tree, a node and an integer K, print nodes which are at K distance from the the given node.
