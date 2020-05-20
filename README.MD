@@ -70,3 +70,6 @@ Build tree when inorder and postorder traversals are given.
 
 * [Find min and max in a binary tree](./Binary_Trees/BT21_Min_Max.java)
  Return the minimum and maximum node value in a tree as a pair
+
+* [Find path from root to leaf equals a sum k](./Binary_Trees/BT22_Path_Sum_Root_To_Leaf.java)
+ Given a binary tree and a number k, print out all root to leaf paths where the sum of all nodes value is same as the given number k.
