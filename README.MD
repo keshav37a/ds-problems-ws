@@ -65,3 +65,8 @@ Build tree when inorder and preorder traversals are given.
 * [Build Tree Using Inorder and Postorder](./Binary_Trees/BT19_Build_Using_In_Post.java)
 Build tree when inorder and postorder traversals are given.
 
+* [Create and insert duplicate nodes](./Binary_Trees/BT20_Create_Insert_Duplicate_Node.java)
+ For each node create a new duplicate node, and insert that duplicate as left child of the original node.
+
+* [Find min and max in a binary tree](./Binary_Trees/BT21_Min_Max.java)
+ Return the minimum and maximum node value in a tree as a pair
