@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Revision
 
-This repository is aimed for a quick go through of some common questions for data structures. The solutions are made by me, if you have a better way of solving any of these problems do contribute.
+This repository is aimed for a quick go through of some common questions for data structures and algorithms. The solutions given are my attempt at these problems, if you have a better way of solving any of these these then do contribute.
 
 ## Topics included
 
@@ -79,3 +79,6 @@ Build tree when inorder and postorder traversals are given.
 
 * [Longest Leaf to root path](./Binary_Trees/BT24_Longest_Leaf_To_Root_Path.java)
  Given a binary tree, return the longest path from leaf to root. Longest means, a path which contain maximum number of nodes from leaf to root.
+
+* [Boundary Traversal](./Binary_Trees/BT25_Boundary_Traversal.java)
+Given a binary tree having N nodes, print its boundary traversal.
