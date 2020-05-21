@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Revision
 
-This repository is aimed for a quick go through of some common questions for data structures.
+This repository is aimed for a quick go through of some common questions for data structures. The solutions are made by me, if you have a better way of solving any of these problems do contribute.
 
 ## Topics included
 
@@ -76,3 +76,6 @@ Build tree when inorder and postorder traversals are given.
 
 * [Print nodes at distance k from node](./Binary_Trees/BT23_Print_Nodes_At_Distance_K.java)
  Given a binary tree, a node and an integer K, print nodes which are at K distance from the the given node.
+
+* [Longest Leaf to root path](./Binary_Trees/BT24_Longest_Leaf_To_Root_Path.java)
+ Given a binary tree, return the longest path from leaf to root. Longest means, a path which contain maximum number of nodes from leaf to root.
