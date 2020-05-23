@@ -88,3 +88,6 @@ Given the binary Tree and two nodes say ‘p’ and ‘q’. Determine whether t
 
 * [Vertical Order](./Binary_Trees/BT27_Vertical_Order.java)
 Print the nodes which are at same vertical order in same line separated by space. Print different levels in different lines.
+
+* [Node Update](./Binary_Trees/BT28_Node_Update.java)
+ Replace the node with sum of its children nodes(if child does not exist then consider it as zero). And return its preorder.
