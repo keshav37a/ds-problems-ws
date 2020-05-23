@@ -82,3 +82,9 @@ Build tree when inorder and postorder traversals are given.
 
 * [Boundary Traversal](./Binary_Trees/BT25_Boundary_Traversal.java)
 Given a binary tree having N nodes, print its boundary traversal.
+
+* [Check Cousins](./Binary_Trees/BT26_Check_Cousins.java)
+Given the binary Tree and two nodes say ‘p’ and ‘q’. Determine whether the two nodes are cousins of each other or not.
+
+* [Vertical Order](./Binary_Trees/BT27_Vertical_Order.java)
+Print the nodes which are at same vertical order in same line separated by space. Print different levels in different lines.
