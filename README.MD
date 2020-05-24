@@ -91,3 +91,6 @@ Print the nodes which are at same vertical order in same line separated by space
 
 * [Node Update](./Binary_Trees/BT28_Node_Update.java)
  Replace the node with sum of its children nodes(if child does not exist then consider it as zero). And return its preorder.
+
+* [Inorder Traversal Without Recursion](./Binary_Trees/BT29_Inorder_Traversal_Without_Recursion.java)
+ Given a binary tree, print the inorder traversal of a given tree without using recursion.
