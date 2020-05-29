@@ -11,3 +11,6 @@ Construct a balanced BST from a sorted array.
 
 * [Check if a given tree is a bst](./BST0004_Check_Is_BST.java)
 Check if a given tree is a bst or not.
+
+* [Convert a given BST to Sorted Linked List](./BST0005_BST_To_Sorted_LL.java)
+Convert a given BST to Sorted Linked List
