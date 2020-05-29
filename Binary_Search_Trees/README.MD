@@ -8,3 +8,6 @@ Print all elements that lie between k1 and k2 in ascending order.
 
 * [Convert Sorted Array To BST](./BST0003_Convert_Sorted_Array_To_BST.java)
 Construct a balanced BST from a sorted array.
+
+* [Check if a given tree is a bst](./BST0004_Check_Is_BST.java)
+Check if a given tree is a bst or not.
