@@ -3,7 +3,9 @@ public class BST0004_Check_Is_BST {
         Utility utility = new Utility();
         BinaryTreeNode<Integer> rootNode = utility.takeInputLevelWiseUtility();
         boolean isTrue = isBST(rootNode).isBST;
+        boolean isTrue2 = isBST2(rootNode, Integer.MIN_VALUE, Integer.MAX_VALUE);
         System.out.println(isTrue);
+        System.out.println(isTrue2);
     }
 
     //if rootnode>left & smaller than right child
@@ -14,7 +16,6 @@ public class BST0004_Check_Is_BST {
         if(rootNode==null){
             return new TreeInfo(Integer.MAX_VALUE, Integer.MIN_VALUE, true);
         }
-        System.out.println(rootNode.data);
         if(rootNode.left!=null && rootNode.data<rootNode.left.data)
             return new TreeInfo(Integer.MAX_VALUE, Integer.MIN_VALUE, false);
 
@@ -37,6 +38,19 @@ public class BST0004_Check_Is_BST {
         left.min = currMin;
         left.isBST = true;
         return left;
+    }
+
+    public static boolean isBST2(BinaryTreeNode<Integer> rootNode, int minRange, int maxRange){
+        if(rootNode==null)
+            return true;
+
+        if(rootNode.data<minRange || rootNode.data>maxRange)
+            return false;
+
+        boolean isLeftBST = isBST2(rootNode.left, minRange, rootNode.data-1);
+        boolean isRightBST = isBST2(rootNode.right, rootNode.data, maxRange);
+
+        return isLeftBST && isRightBST;
     }
 }
 class TreeInfo{
