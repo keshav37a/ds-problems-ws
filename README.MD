@@ -97,3 +97,8 @@ Print the nodes which are at same vertical order in same line separated by space
 
 * [Inorder Traversal Without Recursion and Stack](./Binary_Trees/BT30_Inorder_Traversal_Without_Recursion_And_Stack.java)
  Given a binary tree, print the inorder traversal of a given tree without using recursion and Stack.
+
+### Binary Search Trees
+
+* [Search in a BST](./Binary_Search_Trees/BST0001_Search_Node.java)
+Search a node in a given BST.
