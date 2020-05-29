@@ -5,3 +5,6 @@ Search a node in a given BST.
 
 * [Elements between K1 and K2](./BST0002_Elements_Between_K1_K2.java)
 Print all elements that lie between k1 and k2 in ascending order.
+
+* [Convert Sorted Array To BST](./BST0003_Convert_Sorted_Array_To_BST.java)
+Construct a balanced BST from a sorted array.
