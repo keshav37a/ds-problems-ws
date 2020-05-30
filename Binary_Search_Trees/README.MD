@@ -17,3 +17,6 @@ Convert a given BST to Sorted Linked List
 
 * [Lowest Common Ancestor of BST](./BST0006_Lowest_Common_Ancestor.java)
 Find the lowest common ancestor of 2 nodes.
+
+* [Replace with sum of greater nodes](./BST0007_Replace_With_Sum.java)
+Given a binary search tree, replace each nodes' data with the sum of all nodes' which are greater or equal than it.
