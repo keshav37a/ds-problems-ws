@@ -29,3 +29,6 @@ A custom BST class consisting of operations like insertion, deletion, isPresent,
 
 * [Level Wise LinkedList](./BST0010_Level_Wise_Linked_List.java)
 Given a binary tree, write code to create a separate linked list for each level. You need to return the array which contains head of each level linked list.
+
+* [Largest BST](./BST0011_Largest_BST.java)
+Given a Binary tree, find the largest BST subtree. That is, you need to find the BST with maximum height in the given binary tree.
