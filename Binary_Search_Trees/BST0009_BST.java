@@ -10,8 +10,10 @@ public class BST0009_BST {
         bst.insert(9);
         bst.insert(14);
         bst.printTree();
-        System.out.println(bst.delete(5));
+        System.out.println(bst.getSize());
+        System.out.println(bst.delete(10));
         bst.printTree();
+        System.out.println(bst.getSize());
     }   
 }
 
@@ -26,6 +28,7 @@ class BST{
 
     public void insert(int data){
         this.rootNode = insertHelper(this.rootNode, data);
+        ++this.size;
     }
 
     private BinaryTreeNode<Integer> insertHelper(BinaryTreeNode<Integer> rootNode, int data){
@@ -62,6 +65,8 @@ class BST{
 
     public boolean delete(int k){
         DeleteInfoContainer del = deleteHelper(rootNode, k);
+        if(del.isDeleted)
+            --this.size;
         return del.isDeleted;
     }
 
@@ -84,6 +89,7 @@ class BST{
                 int smallestNodeOnRight = findSmallestNode(rootNode.right);
                 delete(smallestNodeOnRight);
                 rootNode.data = smallestNodeOnRight;
+                this.size++;
                 return new DeleteInfoContainer(rootNode, true);
             }
         }
@@ -127,6 +133,10 @@ class BST{
             }
             System.out.println();
         }
+    }
+
+    public int getSize(){
+        return this.size;
     }
 }
 
