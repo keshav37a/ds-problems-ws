@@ -20,3 +20,12 @@ Find the lowest common ancestor of 2 nodes.
 
 * [Replace with sum of greater nodes](./BST0007_Replace_With_Sum.java)
 Given a binary search tree, replace each nodes' data with the sum of all nodes' which are greater or equal than it.
+
+* [Find path in a BST](./BST0008_Find_Path.java)
+Given a BST and an integer k. Find and return the path from the node with data k and root.
+
+* [BST Class from Scratch](./BST0009_BST.java)
+A custom BST class consisting of operations like insertion, deletion, isPresent, printTree and getSize.
+
+* [Level Wise LinkedList](./BST0010_Level_Wise_Linked_List.java)
+Given a binary tree, write code to create a separate linked list for each level. You need to return the array which contains head of each level linked list.
