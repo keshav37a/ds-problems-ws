@@ -32,3 +32,6 @@ Given a binary tree, write code to create a separate linked list for each level.
 
 * [Largest BST](./BST0011_Largest_BST.java)
 Given a Binary tree, find the largest BST subtree. That is, you need to find the BST with maximum height in the given binary tree.
+
+* [Pair Sum In A BST](./BST0012_Pair_Sum.java)
+Given a binary search tree and an integer S, find pair of nodes in the BST which sum to S.
