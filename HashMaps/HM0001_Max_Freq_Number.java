@@ -12,20 +12,23 @@ public class HM0001_Max_Freq_Number {
     }
     public static int maxFreq(int [] arr){
         HashMap<Integer, Integer> numCountMap = new HashMap<>();
-        int max = 0;
+        int maxCount = 0;
+        int value = Integer.MAX_VALUE;
         for(int i=0; i<arr.length; i++){
             int num = arr[i];
+            int newCount = 1;
             if(!numCountMap.containsKey(num)){
                 numCountMap.put(num, 1);
             }
             else{
-                int newCount = numCountMap.get(num)+1;
+                newCount = numCountMap.get(num)+1;
                 numCountMap.put(num, newCount);
-                if(newCount>max)
-                    max = newCount;
+            }
+            if(newCount>maxCount){
+                maxCount = newCount;
+                value = num;
             }
         }
-        System.out.println(numCountMap);
-        return max;
+        return value;
     }
 }
