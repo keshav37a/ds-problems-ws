@@ -6,3 +6,5 @@ This repository is aimed for a quick go through of some common questions for dat
 
 * Binary Trees
 * Binary Search Trees
+* HashMaps
+* Linked Lists
