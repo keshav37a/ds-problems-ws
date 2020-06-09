@@ -1,4 +1,4 @@
-# HashMaps
+# Linked Lists
 
 Some problems Included are-
 

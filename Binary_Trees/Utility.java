@@ -20,8 +20,7 @@ public class Utility {
         BinaryTreeNode<Integer> rootNode = new BinaryTreeNode<Integer>(rootData);
         inputQueue.add(rootNode);
         while(!inputQueue.isEmpty()){
-            BinaryTreeNode<Integer> node = inputQueue.poll();
-    
+            BinaryTreeNode<Integer> node = inputQueue.poll();    
             int leftData = sc.nextInt();
             if(leftData!=-1){
                 BinaryTreeNode<Integer> leftNode = new BinaryTreeNode(leftData);
