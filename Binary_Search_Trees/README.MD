@@ -39,5 +39,8 @@ Given a binary search tree and an integer S, find pair of nodes in the BST which
 * [Merge 2 BSTS](./BST0013_Merge_BST.java)
 Given two binary search trees ,merge the two given balanced BSTs into a balanced binary search tree.
 
-* [Remove node](./BST0013_Merge_BST.java)
+* [Remove node](./BST0014_Remove_Node.java)
 Given a BST (Binary search tree) with N number of nodes and a node X (which is definitely present in the input BST). You need to remove the node X and return the root of updated BST.
+
+* [Floor of BST](./BST0015_Floor_BST.java)
+Given a binary search tree and an integer.Find the floor value of a key in a binary search tree .
