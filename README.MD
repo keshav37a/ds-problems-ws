@@ -4,7 +4,8 @@ This repository is aimed for a quick go through of some common questions for dat
 
 ## Topics included
 
+* Recursion
+* Linked Lists
 * Binary Trees
 * Binary Search Trees
 * HashMaps
-* Linked Lists
