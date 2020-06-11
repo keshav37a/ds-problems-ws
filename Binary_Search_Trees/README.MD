@@ -44,3 +44,6 @@ Given a BST (Binary search tree) with N number of nodes and a node X (which is d
 
 * [Floor of BST](./BST0015_Floor_BST.java)
 Given a binary search tree and an integer.Find the floor value of a key in a binary search tree .
+
+* [Sum in BST](./BST0016_Sum_BST.java)
+You are given a BST and an integer k. You need to find the sum of k smallest elements of the BST.
