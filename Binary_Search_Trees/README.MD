@@ -47,3 +47,6 @@ Given a binary search tree and an integer.Find the floor value of a key in a bin
 
 * [Sum in BST](./BST0016_Sum_BST.java)
 You are given a BST and an integer k. You need to find the sum of k smallest elements of the BST.
+
+* [Common Nodes](./BST0017_Common_Nodes.java)
+You are given with two Binary Search Trees and your task is to find the common elements.
