@@ -10,3 +10,6 @@ Given a string S, remove consecutive duplicates from it recursively.
 
 * [Merge Sort](./RC0003_Merge_Sort.java)
 Sort an array A using Merge Sort.
+
+* [Quick Sort](./RC0004_Quick_Sort.java)
+Sort an array A using Quick Sort.
