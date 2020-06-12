@@ -23,3 +23,5 @@ Given a string, compute recursively a new string where all 'x' chars have been r
 * [String to Integer](./RC0007_String_To_Integer.java)
 Write a recursive function to convert a given string into the number it represents. That is input will be a numeric string that contains only numbers, you need to convert the string into corresponding integer and return the answer.
 
+* [Pair Star](./RC0008_Pair_Star.java)
+Given a string S, compute recursively a new string where identical chars that are adjacent in the original string are separated from each other by a "*".
