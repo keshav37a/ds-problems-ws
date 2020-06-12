@@ -16,3 +16,6 @@ Sort an array A using Quick Sort.
 
 * [Replace Pi](./RC0005_Replace_Pi.java)
 Given a string, compute recursively a new string where all appearances of "pi" have been replaced by "3.14".
+
+* [Remove X](./RC0006_Remove_X.java)
+Given a string, compute recursively a new string where all 'x' chars have been removed.
