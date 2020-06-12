@@ -13,3 +13,6 @@ Sort an array A using Merge Sort.
 
 * [Quick Sort](./RC0004_Quick_Sort.java)
 Sort an array A using Quick Sort.
+
+* [Replace Pi](./RC0005_Replace_Pi.java)
+Given a string, compute recursively a new string where all appearances of "pi" have been replaced by "3.14".
