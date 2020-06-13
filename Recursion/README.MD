@@ -45,3 +45,9 @@ Some problems Included are-
 
 - [Staircase](./RC0013_Staircase.java)
   A child is running up a staircase with N steps, and can hop either 1 step, 2 steps or 3 steps at a time. Implement a method to count how many possible ways the child can run up to the stairs. You need to return number of possible ways W.
+
+- [Binary Search](./RC0014_Binary_Search.java)
+  Binary Search using recursion.
+
+- [Array Subsets](./RC0015_Array_Subsets.java)
+  Given an integer array (of length n), find and return all the subsets of input array.
