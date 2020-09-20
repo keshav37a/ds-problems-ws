@@ -10,3 +10,6 @@ Some problems Included are-
 
 - [Power of a Number](./MSC_0003_Power_Of_A_Number)
   Program to calculate the number when the base and its power is given.
+
+- [Nth Fibonacci](./MSC_0004_Nth_Fibonacci.java)
+  Program to calculate the nth fibonacci number. (multiple approaches)
