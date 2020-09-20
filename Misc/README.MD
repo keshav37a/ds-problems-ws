@@ -13,3 +13,7 @@ Some problems Included are-
 
 - [Nth Fibonacci](./MSC_0004_Nth_Fibonacci.java)
   Program to calculate the nth fibonacci number. (multiple approaches)
+
+- [Prime Range](./MSC_0005_Prime_Range.java)
+  Program to print all the prime numbers that lie in the range 2 to N. (multiple approaches)
+  
